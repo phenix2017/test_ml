@@ -2,8 +2,8 @@ import numpy as np
 import re
 import clean_txt
 
-train_data,train_label=np.load("data_train.pkl/data_train.pkl",allow_pickle=True)
-test_data=np.load("data_test.pkl/data_test.pkl",allow_pickle=True)
+train_data,train_label=np.load("../input/machine-leaning//data_train.pkl",allow_pickle=True)
+test_data=np.load("../input/machine-leaning//data_test.pkl",allow_pickle=True)
 
 from sklearn.model_selection import train_test_split
 np.random.seed(0)
